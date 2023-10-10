@@ -7,7 +7,7 @@ import numpy as np
 # 创建一个名为 "logs" 的 TensorBoard 日志写入器
 writer = SummaryWriter("logs")
 
-image_path="pic (2).jpg"
+image_path="Pics/pic (2).jpg"
 img=Image.open(image_path)
 print(type(img))
 img_array=np.array(img)
@@ -23,4 +23,4 @@ for i in range(100):
 # 关闭 TensorBoard 写入器
 writer.close()
 
-#  使用tensorboard - -logdir = logs运行
+#  使用  运行
